@@ -1,0 +1,62 @@
+# Prompt configurations for different cancer types and styles
+
+breast_cancer:
+  professional:
+    tumor: "histopathological image of invasive breast carcinoma with malignant epithelial cells"
+    normal: "histopathological image of normal breast tissue with benign ductal structures"
+    
+  clinical:
+    tumor: "breast cancer tissue showing neoplastic cells with nuclear atypia"
+    normal: "healthy breast parenchyma with normal glandular architecture"
+    
+  morphological:
+    tumor: "tumor cells with high nuclear-to-cytoplasmic ratio and irregular chromatin"
+    normal: "organized ductal and lobular units with regular cell arrangement"
+    
+  descriptive:
+    tumor: "densely packed cells with dark nuclei and disrupted tissue organization"
+    normal: "well-organized tissue with uniform cells and clear structure"
+    
+  casual:
+    tumor: "abnormal looking tissue that appears cancerous"
+    normal: "normal looking healthy tissue"
+
+mast_cell_tumor:
+  professional:
+    tumor: "histopathological image of mast cell tumor with neoplastic mast cells"
+    normal: "histopathological image of normal dermis without mast cell proliferation"
+    
+  clinical:
+    tumor: "mast cell neoplasm showing granulated tumor cells"
+    normal: "normal dermal tissue with scattered benign mast cells"
+    
+  morphological:
+    tumor: "round cells with metachromatic granules in dense sheets"
+    normal: "fibrous connective tissue with sparse inflammatory cells"
+
+canine_breast:
+  professional:
+    tumor: "canine mammary carcinoma with invasive tumor cells"
+    normal: "normal canine mammary gland tissue"
+    
+  clinical:
+    tumor: "malignant canine mammary tumor showing cellular pleomorphism"
+    normal: "healthy canine breast tissue with normal ductal structures"
+    
+  species_specific:
+    tumor: "dog breast cancer with aggressive growth pattern"
+    normal: "normal dog mammary tissue"
+
+# Generic prompts (species/cancer agnostic)
+generic:
+  professional:
+    tumor: "malignant tumor tissue with neoplastic cell proliferation"
+    normal: "benign tissue with normal cellular architecture"
+    
+  simple:
+    tumor: "cancer"
+    normal: "not cancer"
+    
+  binary:
+    tumor: "tumor"
+    normal: "normal"
